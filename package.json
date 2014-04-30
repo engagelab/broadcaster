@@ -1,22 +1,16 @@
 {
-  "name": "NodeChatSystem",
-  "version": "0.0.1",
-  "description": "Realtime chat system for Tutorialzine.com",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "node",
-    "chat",
-    "system"
-  ],
-  "author": "Nikolay Anastasov",
-  "license": "MIT",
-  "dependencies": {
-    "express": "~3.5.0",
-    "gravatar": "~1.0.6",
-    "socket.io": "~0.9.16",
-    "ejs": "~0.8.5"
-  }
+    "name": "broadcaster",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/engagelab/broadcaster.git"
+    },
+    "dependencies": {
+        "ws": "0.4.x",
+        "express": "3.x"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    }
 }
