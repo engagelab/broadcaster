@@ -1,22 +1,12 @@
 {
-  "name": "NodeChatSystem",
+  "name": "Broadcaster",
   "version": "0.0.1",
-  "description": "Realtime chat system for Tutorialzine.com",
+  "description": "Notification system for Gamification",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "node",
-    "chat",
-    "system"
-  ],
-  "author": "Nikolay Anastasov",
-  "license": "MIT",
+  "author": "Jeremy Toussaint",
+  "license": "Engagelab@uio",
   "dependencies": {
     "express": "~3.5.0",
-    "gravatar": "~1.0.6",
-    "socket.io": "~0.9.16",
-    "ejs": "~0.8.5"
+    "socket.io": "~0.9.16"
   }
 }
