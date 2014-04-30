@@ -18,6 +18,6 @@ module.exports = function(app, io){
 	app.use(express.static(__dirname + '/public'));
 
 	// Hiding log messages from socket.io. Comment to show everything.
-	io.set('log level', 1);
+	//io.set('log level', 1);
 
 };
