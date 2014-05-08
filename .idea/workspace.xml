@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfc0f58-b2b3-4c1c-921c-53b3393bf168" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes.js" afterPath="$PROJECT_DIR$/routes.js" />
-    </list>
+    <list default="true" id="8dfc0f58-b2b3-4c1c-921c-53b3393bf168" name="Default" comment="" />
     <ignored path="broadcaster.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
