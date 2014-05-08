@@ -13,6 +13,12 @@ module.exports = function (app,io) {
                 message: "GAMIFICATION_UPDATE"
             });
         });
+
+        socket.on('badge', function () {
+            socket.broadcast.emit('notify', {
+                message: "GAMIFICATION_BADGE"
+            });
+        });
     });
 };
 
